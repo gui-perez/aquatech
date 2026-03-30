@@ -38,7 +38,7 @@
 /* BANNER */
 .banner {
     height: 465px;
-    background-image: url('C:/Users/guipa/Downloads/aquatech-somente-html/public/assets/imgs/bg-jelly-fish-para-home.png');
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
      background-position: center;
     background-size: cover;
 
@@ -110,7 +110,7 @@
 
     .login {
      
-	background-image: url('C:/Users/guipa/Downloads/aquatech-somente-html/public/assets/imgs/bg-jelly-fish-para_outras_pags.png');
+	background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
      background-position: center;
     background-size: cover;
 
