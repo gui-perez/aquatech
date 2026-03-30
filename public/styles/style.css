@@ -1,0 +1,176 @@
+/* Container padrão */
+.container {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.header {
+    background-color: #000;
+    border-bottom: 3px solid #08e9f5;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.titulo {
+    color: #00c2cb;
+}
+.navbar li {
+    display: inline-block; 
+    margin-right: 20px;    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #d4af37;
+   
+}
+
+.agora a {
+    font-weight: bold;
+}
+
+/* BANNER */
+.banner {
+    height: 465px;
+    background-image: url('C:/Users/guipa/Downloads/aquatech-somente-html/public/assets/imgs/bg-jelly-fish-para-home.png');
+     background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+
+    height: 465px;
+    
+}
+
+.banner p {
+    color: white;
+    font-size: 28px;
+    width: 150px;
+    
+}
+
+.banner span {
+    font-weight: bold;
+}
+
+/* SOCIAL (boxes) */
+.social {
+    background-color: #c4c0c0;
+    padding: 40px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+}
+
+.box img {
+    width: 80px;  
+}
+
+.box h4 {
+    color: #e91e63;
+}
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #3cb4b4;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+.simulador p {
+		width: 500px;
+		background-color:#c1c2c2;
+		border: solid 5px black;
+		margin: 20px;
+		padding: 50px;
+        align-items: end;
+
+	}
+
+
+    .login {
+     
+	background-image: url('C:/Users/guipa/Downloads/aquatech-somente-html/public/assets/imgs/bg-jelly-fish-para_outras_pags.png');
+     background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+
+    height: 600px;
+	}
+
+
+    .card_card-login {
+    background-color: rgb(212, 209, 209);
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+    .campo span {
+    color: #e91e63;
+}
+
+.card_card-login h2{
+    color: #e91e63;
+    text-align: center;
+	}
+    
+    .campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+    .campo input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: solid 3px rgb(19, 186, 236);
+}
+
+.botao{
+    color: #ffffff;
+    background-color: #e91e63;
+    border-radius: 7px;
+    padding: 10px;
+    width: 100px;
+   
+}
+
+.card_card-cadastro {
+    background-color: rgb(212, 209, 209);
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
+.card_card-cadastro h2 {
+   color: #e91e63;
+    text-align: center;
+}
+
+
+    
